@@ -2,7 +2,7 @@
 
 filename <- "Coursera.zip"
 
-# Checking if archieve already exists.
+# Checking if already exists.
 if (!file.exists(filename)){
   fileURL <- "Downloads/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(fileURL, filename, method="curl")
